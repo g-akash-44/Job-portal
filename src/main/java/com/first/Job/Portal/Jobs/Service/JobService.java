@@ -1,6 +1,6 @@
-package com.first.Job.Portal.Service;
+package com.first.Job.Portal.Jobs.Service;
 
-import com.first.Job.Portal.Entity.Jobs;
+import com.first.Job.Portal.Jobs.Entity.Jobs;
 
 import java.util.List;
 import java.util.Optional;

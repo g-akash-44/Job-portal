@@ -1,6 +1,6 @@
-package com.first.Job.Portal.Repository;
+package com.first.Job.Portal.Jobs.Repository;
 
-import com.first.Job.Portal.Entity.Jobs;
+import com.first.Job.Portal.Jobs.Entity.Jobs;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

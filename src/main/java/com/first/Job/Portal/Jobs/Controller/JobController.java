@@ -1,7 +1,7 @@
-package com.first.Job.Portal.Controller;
+package com.first.Job.Portal.Jobs.Controller;
 
-import com.first.Job.Portal.Entity.Jobs;
-import com.first.Job.Portal.ServicesImpl.JobServiceimpl;
+import com.first.Job.Portal.Jobs.Entity.Jobs;
+import com.first.Job.Portal.Jobs.ServicesImpl.JobServiceimpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,8 +1,8 @@
-package com.first.Job.Portal.ServicesImpl;
+package com.first.Job.Portal.Jobs.ServicesImpl;
 
-import com.first.Job.Portal.Entity.Jobs;
-import com.first.Job.Portal.Repository.Jobrepo;
-import com.first.Job.Portal.Service.JobService;
+import com.first.Job.Portal.Jobs.Entity.Jobs;
+import com.first.Job.Portal.Jobs.Repository.Jobrepo;
+import com.first.Job.Portal.Jobs.Service.JobService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -14,11 +14,9 @@ public class JobServiceimpl implements JobService
 {
     @Autowired
     private Jobrepo jr;
-    private Long id=1L;
 
     public String create(Jobs jobs)
     {
-        jobs.setId(id++);
         jr.save(jobs);
         return "Jobs got created";
     }
